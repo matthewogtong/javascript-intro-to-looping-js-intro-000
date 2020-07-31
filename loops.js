@@ -16,3 +16,18 @@ function whileLoop(n) {
   }
   return 'done'
 }
+
+function whileLoop (number){
+  let countdown = number;
+    while (countdown > 0) {
+  console.log(--countdown)
+}
+      return 'done'
+}
+
+function doWhileLoop(array) {
+  do { array.pop();
+    } while
+      (array.length > 0 && maybeTrue());
+          return array
+}
