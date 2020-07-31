@@ -17,10 +17,12 @@ function whileLoop(n) {
   return 'done'
 }
 
-
-function doWhileLoop(array) {
-  do { array.pop();
-    } while
-      (array.length > 0 && maybeTrue());
-          return array
+function doWhileLoop(n) {
+  function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+  do {
+    console.log("I run once regardless.");
+  } while (incrementVariable() < 5);
 }
